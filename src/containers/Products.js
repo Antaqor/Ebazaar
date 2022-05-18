@@ -1,9 +1,34 @@
 import React from 'react';
+import Product from "../components/Product";
+import "../styles/Product.css"
 
 const Products = () => {
     return (
-        <div>
-            Products
+        <div className="container">
+            <div className="col5">
+                <Product/>
+            </div>
+            <div className="col5">
+                <Product/>
+            </div>
+            <div className="col5">
+                <Product/>
+            </div>
+            <div className="col5">
+                <Product/>
+            </div>
+            <div className="col5">
+                <Product/>
+            </div>
+            <div className="col5">
+                <Product/>
+            </div>
+            <div className="col5">
+                <Product/>
+            </div>
+            <div className="col5">
+                <Product/>
+            </div>
         </div>
     );
 };

@@ -14,7 +14,7 @@ function App() {
         <Header/>
         <Slider/>
         <Category/>
-        {/*<Products/>*/}
+        <Products/>
         <Footer/>
         <Bottom/>
     </div>
